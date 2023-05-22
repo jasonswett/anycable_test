@@ -56,3 +56,8 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
 end
+
+gem "anycable-rails", "~> 1.1"
+
+# when using Redis broadcast adapter
+gem "redis", ">= 4.0"
